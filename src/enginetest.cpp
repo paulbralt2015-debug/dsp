@@ -1,4 +1,5 @@
 // Test du moteur commun : ac3 -> modes d'écoute -> effets -> DRC. Usage : enginetest fichier.ac3
+#include <algorithm>
 #include <cmath>
 #include <cstdio>
 #include "ac3file.h"

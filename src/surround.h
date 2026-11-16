@@ -1,6 +1,7 @@
 // Décodeurs matriciels Dolby Surround / Pro Logic / Pro Logic II / IIx (approximations à logique de pilotage)
 // et virtualiseur casque. Aucune dépendance.
 #pragma once
+#include <algorithm>
 #include <cstddef>
 #include <vector>
 

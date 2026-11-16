@@ -14,6 +14,7 @@ if(WIN32)
     # CRT statique : l'exécutable tourne sans installer le « Visual C++ Redistributable »
     set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
     add_compile_options(/W3 /utf-8)
+    add_compile_definitions(_CRT_SECURE_NO_WARNINGS NOMINMAX)
   endif()
   add_executable(TwinsPlayer WIN32 src/main.cpp src/player.cpp src/ac3.cpp src/surround.cpp)
   target_compile_definitions(TwinsPlayer PRIVATE UNICODE _UNICODE)

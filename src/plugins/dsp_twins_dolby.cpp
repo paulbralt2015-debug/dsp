@@ -1,6 +1,7 @@
 // Winamp — plugin DSP « Twins Dolby Surround / Pro Logic » : s'applique à n'importe quel fichier lu par Winamp
 // (stéréo 16 bits). Les modes surround sont rendus en surround virtuel stéréo (le DSP ne peut pas changer le
 // nombre de canaux). Réglages : bouton « Configurer le plug-in ».
+#include <cmath>
 #include <string>
 #include <vector>
 

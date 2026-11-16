@@ -1,7 +1,7 @@
 // Menu de réglages commun (Winamp / foobar2000) : modes d'écoute, downmix, DRC, effets.
 #pragma once
 #include <windows.h>
-#include "engine.h"
+#include "../engine.h"
 
 // Affiche le menu au curseur. Renvoie true si un réglage a changé (s est mis à jour).
 inline bool showSettingsMenu(HWND owner, Settings& s) {
